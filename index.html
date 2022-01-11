@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Controle de Gastos - Kenzie</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <!-- CORPO DA PÁGINA -->
+    <body>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main>
+
+            <!-- SEÇÃO DE INSERÇÃO DE INFORMAÇÕES -->
+            <section class="secaoInsercaoInformacoes">
+                <h1>Controle de Gastos Kenzie</h1>
+
+                <div class="formularioEntradaOrcamento">
+                    <h2>Total Orçamento</h2>
+                    <input type="text">
+                    <button>Calcular</button>
+                </div>
+
+                <div class="formularioEntradaDespesa">
+                    <h2>Nome despesa</h2>
+                    <input type="text">
+
+                    <h2>Valor despesa</h2>
+                    <input type="number">
+
+                    <button>Adicionar despesa</button>
+                </div>
+
+                <div class="containerDespesas">
+                    <div class="containerDespesas__cabecalho">
+                        <p>Título despesa</p>
+                        <p>Valor despesa</p>
+                    </div>
+                    <ul class="containerDespesas__lista">
+                        <li>
+                            <h3>- hotel</h3>
+                            <p>$43</p>
+                            <img src="" alt="Icone lixeira">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SEÇÃO DE IMPRESSÃO DE RESULTADOS -->
+            <section class="secaoImpressaoResultados">
+                <div class="secaoImpressaoResultados__orcamento">
+                    <h3>Orçamento</h3>
+                    <p>+ R$ 0</p>
+                </div>
+                <div class="secaoImpressaoResultados__despesas">
+                    <h3>Despesas</h3>
+                    <p>- R$ 0</p>
+                </div>
+                <div class="secaoImpressaoResultados__saldo">
+                    <h3>Saldo</h3>
+                    <p>R$ 0</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
