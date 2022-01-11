@@ -11,6 +11,7 @@ Projeto desenvolvido pelas instrutoras da Kenzie Academy Brasil para o evento El
 ## Checkpoints aulas
 
 1. [Aula 1: Introdução ao HTML e estruturação do projeto](https://kenzieacademybr.notion.site/Checkpoint-3d285f4acb864766b63128057b3a9210)
+1. [Aula 2: Introdução ao CSS e estilização do projeto](https://kenzieacademybr.notion.site/Checkpoint-cfc0c115530e405ea00e8b8611d74349)
 
 ## O projeto
 
