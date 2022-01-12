@@ -1,0 +1,143 @@
+body{
+    background-color: #2685da;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* SEÇÃO DE INSERÇÃO DE INFORMAÇÕES */
+.secaoInsercaoInformacoes{
+    width: 700px;
+}
+.secaoInsercaoInformacoes h1{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 5px;
+}
+.secaoInsercaoInformacoes .tresPontos{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.secaoInsercaoInformacoes input{
+    display: block;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0;
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.12);
+    outline: none;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.secaoInsercaoInformacoes button{
+    background-color: #2685da;
+    display: block;
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.formularioEntradaOrcamento{}
+.formularioEntradaOrcamento h2{
+    font-weight: bold;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 5px;
+}
+.formularioEntradaOrcamento input{}
+.formularioEntradaOrcamento button{}
+
+.formularioEntradaDespesa{}
+.formularioEntradaDespesa h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.formularioEntradaDespesa input{}
+.formularioEntradaDespesa button{}
+
+.containerDespesas{}
+
+.containerDespesas__cabecalho{
+    display: flex;
+    margin: 40px 0;
+}
+.containerDespesas__cabecalho p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.containerDespesas__cabecalho .tituloDespesa{
+    margin-right: 150px;
+}
+
+.containerDespesas__lista{}
+.containerDespesas__lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecfbef;
+    color: #78ce71;
+    font-weight: bold;
+    padding: 30px 20px;
+    border-radius: 2px;
+}
+.containerDespesas__lista li h3{}
+.containerDespesas__lista li p{}
+.containerDespesas__lista li img{}
+
+/* SEÇÃO DE IMPRESSÃO DE RESULTADOS */
+.secaoImpressaoResultados{
+    width: 300px;
+}
+
+.secaoImpressaoResultados div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.secaoImpressaoResultados div h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.secaoImpressaoResultados div p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.secaoImpressaoResultados__orcamento{}
+.secaoImpressaoResultados__orcamento h3{}
+.secaoImpressaoResultados__orcamento p{
+    color: #78ce71;
+}
+
+.secaoImpressaoResultados__despesas{}
+.secaoImpressaoResultados__despesas h3{}
+.secaoImpressaoResultados__despesas p{
+    color: #e44f3c;
+}
+
+.secaoImpressaoResultados__saldo{}
+.secaoImpressaoResultados__saldo h3{}
+.secaoImpressaoResultados__saldo p{
+    color: #64d2ff;
+}

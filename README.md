@@ -26,6 +26,19 @@ Projeto desenvolvido pelas instrutoras da Kenzie Academy Brasil para o evento El
   - /js
     - script.js
 
+## Cores
+
+- Azul Principal: #2685da;
+- Azul Texto: #64d2ff;
+- Verde: #78ce71;
+- Verde Claro: #ecfbef;
+- Vermelho: #e44f3c
+- Cinza Claro: #eeeeee.
+
+## Fonte
+
+- font-family: 'Roboto', sans-serif;
+
 ## Layout
 
 - [Controle de Gastos - Elas Codam](./assets/img/layout.png)
