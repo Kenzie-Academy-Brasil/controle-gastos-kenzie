@@ -108,7 +108,7 @@ minhaFuncao()
 */
 
 function imprimirMeuNome() {
-    console.log("Maria Porcina");
+    // console.log("Maria Porcina");
 }
 
 // imprimirMeuNome();
@@ -122,7 +122,7 @@ function somar(soma1, soma2) {
 
 const resultadoSoma = somar(30, 5000);
 
-console.log(resultadoSoma);
+// console.log(resultadoSoma);
 
 /* ESTRUTURA DE REPETIÇÃO */
 
@@ -151,5 +151,5 @@ const listaNomes = ['Maria', 'Amanda', 'Thalita', 'Polyana', 'nome2'];
 // console.log(listaNomes[6])
 
 for(let contador = 0; contador < listaNomes.length; contador += 1){
-    console.log(listaNomes[contador]);
+    // console.log(listaNomes[contador]);
 }

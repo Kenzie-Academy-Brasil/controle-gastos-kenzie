@@ -24,4 +24,20 @@ main.appendChild(elementoCriado)
 //console.log(main)
 
 
+/* ======== */
 
+/* EVENTOS */
+
+// addEventListener => adicionar escutador de evento
+
+// elemento.addEventListener('evento', ação a ser executada);
+
+const div1Exemplo = document.querySelector('.div1');
+
+console.log(div1Exemplo);
+
+div1Exemplo.addEventListener('click', imprimirHelloWorld);
+
+function imprimirHelloWorld(evento){
+    console.log(evento.target);
+}
